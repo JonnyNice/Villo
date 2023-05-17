@@ -36,7 +36,16 @@ h8 = Home.create( address: "7265 N 40th St, Paradise Valley, AZ 85253", price:60
 
 puts "Seeding photos..."
 p1 = Photo.create(image_url: 'https://wp-tid.zillowstatic.com/bedrock/app/uploads/sites/31/shutterstock_112472870-682b30-0b84e5.jpg', description: "Outdoor House View", home:h1)
+
+
+
 p2 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/5174e26602b3b5be4f391bea2b30ae1c-uncropped_scaled_within_1536_1152.webp', description: "Southern Design", home:h2)
+p21 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/9a71148294de95afe77e8009d1d48b9c-uncropped_scaled_within_1536_1152.webp', description: "Front of home", home:h2)
+p22 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/446587fed65d93a68a9751acfb8388fc-uncropped_scaled_within_1536_1152.webp', description: "Dining Room", home:h2)
+p23 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/7c228d4b697b276e820c0068f8771686-uncropped_scaled_within_1536_1152.webp', description: "Kitchen", home:h2)
+p24 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/9c3a666832f928ff8561ba02feb5ccd7-uncropped_scaled_within_1536_1152.webp', description: "Backyard", home:h2)
+
+
 p3 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/90a44ca13f7923057b405bf9368595e3-cc_ft_1536.webp', description: "Modern Living", home:h3)
 p4 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/126f1b1c6eb30652701e77dd88f42e44-uncropped_scaled_within_1536_1152.webp', description: "Breathtaking Views", home:h4)
 p5 = Photo.create(image_url: 'https://photos.zillowstatic.com/fp/30fade5563ba4103958f4878a3308df0-uncropped_scaled_within_1536_1152.webp', description:  "Southern Escape", home:h5)
